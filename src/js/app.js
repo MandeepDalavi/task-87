@@ -7,6 +7,10 @@ window.addEventListener("DOMContentLoaded", () => {
     { name: "John", class: "is-primary" },
     { age: 23, class: "is-warning" },
     { job: "programmer", class: "is-danger" },
-  ];
+  ]; 
   const articles = document.querySelectorAll("article");
+
+  for (var i = 0; i < articles.length; i++) {
+    articles[i].classList.add(arrayToPluck[i].class);
+  }
 });

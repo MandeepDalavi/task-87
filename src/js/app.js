@@ -1,6 +1,7 @@
 import "../scss/app.scss";
+import * as ram from "ramda";
 
-const ram = require("ramda");
+// const ram = require("ramda");
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
